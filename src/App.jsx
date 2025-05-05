@@ -10,7 +10,6 @@ import {
 } from "recharts";
 
 
-
 function App() {
 
   const data = [
@@ -105,11 +104,10 @@ function App() {
 
 export default App;
 
-
 const CustomizedDot = (props) => {
   const { cx, cy, stroke, payload, dataKey } = props;
   const zScore = dataKey === 'pv' ? payload.zPv : payload.zUv;
-  const fill = Math.abs(zScore) > 1 ? '#ff0000' : '#ffffff'; 
+  const fill = Math.abs(zScore) > 1 ? '#ff0000' : '#ffffff';
 
   return (
     <Dot
@@ -133,7 +131,7 @@ const CustomizedLine = (props) => {
     const startZ = dataKey === 'pv' ? start.payload.zPv : start.payload.zUv;
     const endZ = dataKey === 'pv' ? end.payload.zPv : end.payload.zUv;
     const isHighlighted = Math.abs(startZ) > 1 || Math.abs(endZ) > 1;
-    
+
     pathElements.push(
       <path
         key={`line-${i}`}
