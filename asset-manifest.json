@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/z-scor-test/static/js/main.f43cf83d.js",
+    "static/js/453.a7e598c7.chunk.js": "/z-scor-test/static/js/453.a7e598c7.chunk.js",
+    "index.html": "/z-scor-test/index.html",
+    "main.f43cf83d.js.map": "/z-scor-test/static/js/main.f43cf83d.js.map",
+    "453.a7e598c7.chunk.js.map": "/z-scor-test/static/js/453.a7e598c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f43cf83d.js"
+  ]
+}
